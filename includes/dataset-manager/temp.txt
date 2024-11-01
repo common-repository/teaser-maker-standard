@@ -1,0 +1,89 @@
+<form   name="add_edit_teaser_settings"
+        id="add_edit_teaser_settings"
+        action="/plugdev/wp-admin/...&amp;record_key=5344d9dc6dfb1"
+        method="post"
+        target="_parent"
+        class="Zebra_Form"
+        >
+
+    <div class="hidden">
+        ...
+    </div>
+
+    <div class="row">
+
+        <label id="label_for_selected_layout_slug">Layout/Style/Scripts</label>
+
+        <div class="note" id="note_for_selected_layout_slug">
+            <div style="margin-bottom:0.35em; font-size:120%; color:#333333">
+                Select the HTML (layouts), CSS (styles) and Javascript (scripts)
+                you want the teasers displayed with.&nbsp; This can be one of
+                the four built-in Layouts/Styles/Scripts.&nbsp; Or some custom
+                HTML, CSS and Javascript you've created yourself.
+            </div>
+        </div>
+
+        <div class="cell">
+            <input  type="radio" name="selected_layout_slug"
+                    id="selected_layout_slug_p-and-h-tags-down-the-page"
+                    value="p-and-h-tags-down-the-page"
+                    class="control radio"
+                    style="margin-left:1.5em"
+                    onfocus="greatKiwi_byFernTec..._zebraForm_onfocus(this)"
+                    onblur="greatKiwi_byFernTec_..._zebraForm_onblur(this)"
+                    >
+        </div>
+        <div class="cell">
+            <label  for="selected_layout_slug_p-and-h-tags-down-the-page"
+                    id="label_selected_layout_slug_p-and-h-tags-down-the-page"
+                    class="option"
+                    ><b>P and H Tags - Down the Page</b> (default)</label>
+        </div>
+        <div class="clear"></div>
+
+        <div class="cell">
+            <input  type="radio"
+                    name="selected_layout_slug"
+                    id="selected_layout_slug_p-and-h-tags-floating"
+                    value="p-and-h-tags-floating"
+                    class="control radio"
+                    style="margin-left:1.5em"
+                    onfocus="greatKiwi_byFernTec_...zebraForm_onfocus(this)"
+                    onblur="greatKiwi_byFernTec_...zebraForm_onblur(this)"
+                    checked="checked"
+                    >
+        </div>
+        <div class="cell">
+            <label  for="selected_layout_slug_p-and-h-tags-floating"
+                    id="label_selected_layout_slug_p-and-h-tags-floating"
+                    class="option"
+                    ><b>P and H Tags - Floating</b></label>
+        </div>
+        <div class="clear"></div>
+
+        ...
+
+    </div>
+
+    ...
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
